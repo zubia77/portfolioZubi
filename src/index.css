@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@300&family=Comfortaa:wght@300&family=Dekko&family=Delius+Swash+Caps&family=Grand+Hotel&family=Indie+Flower&family=Pacifico&family=Short+Stack&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
