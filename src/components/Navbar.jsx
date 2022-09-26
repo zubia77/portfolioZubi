@@ -1,14 +1,23 @@
-import { useState } from "react";
-import { BiMenu } from "react-icons/bi";
-import { BiX } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-    const [showNav, setShowNav] = useState(false);
-
     return (
-        <div className="">
-            
-           navbar
+        <div className="text-4xl  hidden md:block text-color-10">
+            <nav className="p-4" id="oben">
+                <NavLink to="/home" className="px-8">
+                   Home
+                </NavLink>
+                <NavLink to="about_me" className="px-8">
+                    About Me
+                </NavLink>
+
+                <NavLink to="works" className="px-8">
+                    Works
+                </NavLink>
+                <NavLink to="contact" className="px-8">
+                    Contact
+                </NavLink>
+            </nav>
         </div>
     );
 }

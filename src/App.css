@@ -1,0 +1,63 @@
+.greeting {
+    animation: greeting 1s ease 0s 1 normal forwards;
+}
+
+@keyframes greeting {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.name {
+    font-family: Pacifico;
+    animation: name 1s ease 1s 1 normal forwards;
+    opacity: 0;
+}
+
+@keyframes name {
+    0% {
+        opacity: 0;
+        transform: rotate(-540deg) scale(2);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+.profession {
+  
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid #133b5c; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0px; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+      visibility: hidden;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+
+
+}
+@keyframes typing {
+    from { visibility: hidden; width: 0 }
+    to { visibility: visible; width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #133b5c }
+  }
+
+  .active {
+    border-bottom: 3px solid #133b5c;
+    border-radius: 0;
+}
