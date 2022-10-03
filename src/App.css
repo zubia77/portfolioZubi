@@ -48,7 +48,7 @@
 }
 @keyframes typing {
     from { visibility: hidden; width: 0 }
-    to { visibility: visible; width: 100% }
+    to { visibility: visible; width: 45% }
   }
   
   /* The typewriter cursor effect */
