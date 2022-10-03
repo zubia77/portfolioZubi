@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div className="fixed bottom-0 flex justify-between text-color-10 w-full px-2">
+        <div className="fixed bottom-0 flex justify-between md:text-4xl text-color-10 w-full px-2">
             <div className="flex gap-2">
                 <a
                     className="github flex items-end  py-4"

@@ -10,9 +10,9 @@ import "./App.css";
 
 function App() {
     return (
-        <div className="md:bg-main md:bg-cover w-screen h-screen bg-no-repeat  bg-color-20 font-style3">
+        <div className="md:bg-main md:bg-cover bg-no-repeat h-screen bg-color-20 font-style3">
             <Navbar />
-
+            <NavbarMobile />
             <Routes>
                 <Route path="/" element={<Navigate to="/home" replace />} />
                 <Route path="/home" element={<Home />} />
@@ -21,7 +21,6 @@ function App() {
                 <Route path="contact" element={<Contact />}></Route>
             </Routes>
 
-            <NavbarMobile />
             <Footer />
         </div>
     );

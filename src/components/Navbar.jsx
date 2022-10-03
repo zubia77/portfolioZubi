@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="text-4xl  hidden md:block text-color-10">
-            <nav className="p-4" id="oben">
+        <div className="text-4xl hidden md:block text-color-10">
+            <nav className="p-4 active:border-b-4 active:border-color-10" id="oben">
                 <NavLink to="/home" className="px-8">
                    Home
                 </NavLink>
