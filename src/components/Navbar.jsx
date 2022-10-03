@@ -7,14 +7,14 @@ function Navbar() {
                 <NavLink to="/home" className="px-8">
                    Home
                 </NavLink>
-                <NavLink to="about_me" className="px-8">
+                <NavLink to="/about-me" className="px-8">
                     About Me
                 </NavLink>
 
-                <NavLink to="works" className="px-8">
+                <NavLink to="/works" className="px-8">
                     Works
                 </NavLink>
-                <NavLink to="contact" className="px-8">
+                <NavLink to="/contact" className="px-8">
                     Contact
                 </NavLink>
             </nav>
