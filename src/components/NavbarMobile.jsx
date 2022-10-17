@@ -24,7 +24,7 @@ function NavbarMobile() {
                     onClick={() => setShowNav(!showNav)}
                 >
                     <nav className={
-                        (showNav ? "opacity-100" : "opacity-0") +
+                        (showNav ? "block" : "invisible") +
                         " w-9/12 h-96 mt-40 ml-10 grid grid-cols-4 grid-rows-4 gap-7 transition ease-in-out duration-1000"}>
                         <NavLink
                             to="/home"
